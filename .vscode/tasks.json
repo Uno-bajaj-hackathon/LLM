@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run Streamlit App",
+			"command": "streamlit run streamlit_app.py",
+			"group": "build",
+			"isBackground": false
+		}
+	]
+}
